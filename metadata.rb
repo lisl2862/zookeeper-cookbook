@@ -16,7 +16,7 @@ supports         'redhat', '~> 7.0'
 chef_version     '>= 12.10'
 
 depends          'build-essential', '>= 5.0'
-depends          'java', '>= 1.39'
+depends          'java', '< 8.0.0'
 depends          'runit', '>= 1.7'
 depends          'magic', '>= 1.1'
 depends          'ark', '>= 1.0'
